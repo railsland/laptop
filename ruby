@@ -1,5 +1,5 @@
-echo "Creating .rvmrc file if it doesn't exist ..."
-  [[ -f ~/.rvmrc ]] || echo "gem: --no-ri --no-rdoc" > ~/.rvmrc
+echo "Creating .gemrc file if it doesn't exist ..."
+  [[ -f ~/.gemrc ]] || echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
 echo "Installing Ruby 1.9.2 stable and making it the default Ruby ..."
   rvm install 1.9.2-p290
