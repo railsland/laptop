@@ -11,6 +11,9 @@ echo "Installing Homebrew, a good OS X package manager ..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
   brew update
 
+echo "Installing Git, a fast version control system ..."
+  brew install git
+
 echo "Installing MongoDB, a scalable, high-performance, document-oriented database ..."
   brew install mongodb
 
