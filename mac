@@ -11,17 +11,11 @@ echo "Installing Homebrew, a good OS X package manager ..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
   brew update
 
-echo "Installing Postgres, a good open source relational database ..."
-  brew install postgres --no-python
-
-echo "Installing Redis, a good key-value database ..."
-  brew install redis
+echo "Installing MongoDB, a scalable, high-performance, document-oriented database ..."
+  brew install mongodb
 
 echo "Installing ack, a good way to search through files ..."
   brew install ack
-
-echo "Installing tmux, a good way to save project state and switch between projects ..."
-  brew install tmux
 
 echo "Installing ImageMagick, good for cropping and re-sizing images ..."
   brew install imagemagick
@@ -33,4 +27,4 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/railsland/laptop/master/ruby)
