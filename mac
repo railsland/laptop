@@ -7,9 +7,21 @@ echo "Copying public key to clipboard. Paste it into your Github account ..."
   [[ -f ~/.ssh/id_rsa.pub ]] && cat ~/.ssh/id_rsa.pub | pbcopy
   open https://github.com/account/ssh
 
+echo "Please download & install wkHtml2PDF to generate even better PDFs out of HTML & CSS ..."
+  open http://code.google.com/p/wkhtmltopdf/downloads/list
+
 echo "Installing Homebrew, a good OS X package manager ..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
   brew update
+
+echo "Installing Wget, because you'll need it ..."
+  brew install wget
+
+echo "Installing HTMLdoc, to generate PDF out of HTML ..."
+  brew install htmldoc
+
+echo "Installing RAR, because you'll need it..."
+  brew install unrar
 
 echo "Installing Git, a fast version control system ..."
   brew install git
