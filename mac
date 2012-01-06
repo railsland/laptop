@@ -35,6 +35,9 @@ echo "Installing ack, a good way to search through files ..."
 echo "Installing ImageMagick, good for cropping and re-sizing images ..."
   brew install imagemagick
 
+echo "Installing ZSH ..."
+  wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest
   echo "
