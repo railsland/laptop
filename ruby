@@ -55,7 +55,3 @@ echo "Installing SimpleForm ..."
 
 echo "Installing Cells ..."
   gem install cells --no-rdoc --no-ri
-
-
-echo "Installing Cells ..."
-  gem install cells --no-rdoc --no-ri
