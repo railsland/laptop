@@ -1,9 +1,9 @@
 echo "Creating .gemrc file if it doesn't exist ..."
   [[ -f ~/.gemrc ]] || echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
-echo "Installing Ruby 2.0 stable and making it the default Ruby ..."
-  rvm install 2.0.0
-  rvm use 2.0.0 --default
+echo "Installing Ruby 1.9.3 and making it the default Ruby ..."
+  rvm install 1.9.3
+  rvm use 1.9.3 --default
 
 echo "Installing Bundler for managing Ruby libraries ..."
   gem install bundler --no-rdoc --no-ri
