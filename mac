@@ -12,7 +12,7 @@ echo "Please download & install wkHtml2PDF to generate even better PDFs out of H
   open http://code.google.com/p/wkhtmltopdf/downloads/list
 
 echo "Installing Homebrew, a good OS X package manager ..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
   brew update
 
 echo "Installing Wget, because you'll need it ..."
