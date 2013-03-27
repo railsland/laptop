@@ -18,6 +18,9 @@ echo "Installing Homebrew, a good OS X package manager ..."
 echo "Installing Wget, because you'll need it ..."
   brew install wget
 
+echo "Installing mysql, because you'll need it ..."
+  brew install mysql
+
 echo "Installing HTMLdoc, to generate PDF out of HTML ..."
   brew install htmldoc
 
